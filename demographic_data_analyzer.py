@@ -66,7 +66,24 @@ def calculate_demographic_data(print_data=True):
     # print(ind,ind2)
     
     max_item = max(Npa)
-    
+# pa=df['native-country'].unique()
+# val=range(len(pa))
+# dd=dict(zip(pa, val))
+
+# # dd
+# for pais in pa :
+
+#   val1=df.query(" salary =='>50K'  and `native-country` == @pais " )['native-country'].count()
+
+#   val2=df.query(" `native-country` == @pais" )['native-country'].count()
+#   dd[pais]=val1/val2
+#   ind=ind+1
+
+# dd  
+
+# new_val = max(dd, key= lambda x: dd[x])
+
+# new_val
     # pa2[Npa.index(max_item)]
     # df3['index'][0]
 
